@@ -1,0 +1,203 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/* frist box index.html */
+
+.main {
+  height: 500px;
+  width: 900px;
+  background-color: red;
+  margin: auto;
+  position: relative;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transition: 2s;
+}
+
+.main:hover .box {
+  left: 800px;
+  background-color: yellow;
+}
+
+/* second html */
+
+.box1 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(128, 0, 109);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transition: 2s;
+}
+
+.main:hover .box1 {
+  top: 400px;
+  background-color: rgb(186, 160, 160);
+}
+
+/* third html */
+
+.box-1 {
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transition: 2s;
+}
+
+.main:hover .box-1 {
+  top: 400px;
+  left: 800px;
+  background-color: orange;
+}
+
+/* fourth html */
+
+.children {
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transition: 1s;
+}
+
+.main .cells1 {
+  left: 0px;
+  top: 0;
+  background-color: gray;
+}
+
+.main .cells2 {
+  left: 800px;
+  top: 0px;
+  background-color: pink;
+}
+
+.main .cells3 {
+  left: 800px;
+  top: 400px;
+  background-color: orange;
+}
+
+.main .cells4 {
+  left: 0px;
+  top: 400px;
+  background-color: rgb(255, 0, 191);
+}
+
+.main:hover .cells1 {
+  left: 800px;
+  top: 0px;
+  background-color: chartreuse;
+}
+
+.main:hover .cells2 {
+  left: 800px;
+  top: 400px;
+  background-color: black;
+}
+
+.main:hover .cells3 {
+  left: 0px;
+  top: 400px;
+  background-color: darkorchid;
+}
+
+.main:hover .cells4 {
+  left: 0px;
+  top: 0px;
+  background-color: deeppink;
+}
+
+/* five html */
+
+.boxes {
+  height: 100px;
+  width: 100px;
+
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transition: 1s;
+}
+
+.main .col1 {
+  top: 0px;
+  left: 0px;
+  background-color: yellow;
+}
+
+.main .col2 {
+  top: 0px;
+  left: 800px;
+  background-color: gray;
+}
+
+.main .col3 {
+  top: 400px;
+  left: 800px;
+  background-color: green;
+}
+
+.main .col4 {
+  top: 400px;
+  left: 0px;
+  background-color: rgb(98, 78, 78);
+}
+
+.main:hover .col1 {
+  left: 800px;
+  top: 400px;
+  background-color: blue;
+}
+
+.main:hover .col2 {
+  left: 0px;
+  top: 400px;
+  background-color: purple;
+}
+
+.main:hover .col3 {
+  left: 0px;
+  top: 0px;
+  background-color: aqua;
+}
+
+.main:hover .col4 {
+  left: 800px;
+  top: 0px;
+  background-color: chartreuse;
+}
+
+/* .link */
+
+.link a {
+  display: inline-block;
+  margin-left: 90px;
+  background-color: gray;
+  padding: 10px 20px;
+  margin-top: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.link {
+  margin-left: 250px;
+  width: 100%;
+  margin-bottom: 30px;
+}
